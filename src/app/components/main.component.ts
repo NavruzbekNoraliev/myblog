@@ -20,7 +20,7 @@ export class MainComponent extends UnsubscribeAdapter implements OnInit {
 
   preloader() {
     this.loading = !this.loading;
-    this.router.navigateByUrl('/');
+    // this.router.navigateByUrl('/');
   }
 
 }
