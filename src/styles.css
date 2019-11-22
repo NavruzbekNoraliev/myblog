@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+.fullscreen {
+  width: 100%;
+  height: 100%;
+  /* background-color: black; */
+}
+
+.center {
+  align-content: center;
+}
+
+.blurred {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+}
+
+.unblurred {
+  -webkit-filter: none;
+  -moz-filter: blur(0px) !important;
+  -o-filter: blur(0px) !important;
+  -ms-filter: blur(0px) !important;
+  filter: blur(0px) !important;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
