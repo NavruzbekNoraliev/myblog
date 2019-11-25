@@ -5,6 +5,7 @@ import { MainComponent } from './main.component';
 import { MainRoutes } from './main.routing';
 import { RouterModule } from '@angular/router';
 import { BrowserModule } from '@angular/platform-browser';
+import { FirstpageComponent } from './firstpage/firstpage.component';
 
 @NgModule({
   imports: [
@@ -13,6 +14,8 @@ import { BrowserModule } from '@angular/platform-browser';
   ],
   declarations: [
     MainComponent,
+    FirstpageComponent,
+
   ],
 })
 export class MainModule {
